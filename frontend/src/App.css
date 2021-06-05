@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.label {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.uploadedImage {
+  margin-top: 1rem;
+  height: 200px;
+  object-fit: contain;
+}
